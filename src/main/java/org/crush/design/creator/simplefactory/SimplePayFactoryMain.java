@@ -17,7 +17,7 @@ package org.crush.design.creator.simplefactory;
  * @author crush_lee
  * @date 18/4/16
  */
-public class SimplePayFactoryTest {
+public class SimplePayFactoryMain {
     public static void main(String[] args){
         SimpleFactory mFactory = new SimpleFactory();
 

@@ -17,7 +17,7 @@ package org.crush.design.creator.factorymethod;
  * @author crush_lee
  * @date 18/4/13
  */
-public class FactoryTest {
+public class FactoryMethodMain {
     public static void main(String ...argc){
         Product a=new FactoryA().manufacture();
         a.show();
