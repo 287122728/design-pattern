@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.crush.design.creator.abstractfactory</OriginalElement>
+  <nodes>
+    <node x="281.15000000000003" y="0.0">org.crush.design.creator.abstractfactory.Vegetable</node>
+    <node x="576.0250000000001" y="234.0">org.crush.design.creator.abstractfactory.NorthFactory</node>
+    <node x="200.125" y="122.0">org.crush.design.creator.abstractfactory.SouthFruit</node>
+    <node x="363.125" y="111.0">org.crush.design.creator.abstractfactory.MultiProductFactory</node>
+    <node x="375.875" y="357.0">org.crush.design.creator.abstractfactory.AstractFactoryMain</node>
+    <node x="481.27500000000003" y="0.0">org.crush.design.creator.abstractfactory.Fruit</node>
+    <node x="157.65000000000003" y="234.0">org.crush.design.creator.abstractfactory.SouthFactory</node>
+    <node x="0.0" y="122.0">org.crush.design.creator.abstractfactory.SouthVegetable</node>
+    <node x="759.125" y="122.0">org.crush.design.creator.abstractfactory.NorthFruit</node>
+    <node x="563.125" y="122.0">org.crush.design.creator.abstractfactory.NorthVegetable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.crush.design.creator.abstractfactory.NorthFactory" target="org.crush.design.creator.abstractfactory.NorthVegetable">
+      <point x="0.0" y="-36.5" />
+      <point x="666.0250000000001" y="209.0" />
+      <point x="651.125" y="209.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="org.crush.design.creator.abstractfactory.NorthVegetable" target="org.crush.design.creator.abstractfactory.Vegetable">
+      <point x="0.0" y="-25.5" />
+      <point x="651.125" y="81.0" />
+      <point x="413.15000000000003" y="81.0" />
+      <point x="44.0" y="25.5" />
+    </edge>
+    <edge source="org.crush.design.creator.abstractfactory.NorthFruit" target="org.crush.design.creator.abstractfactory.Fruit">
+      <point x="0.0" y="-25.5" />
+      <point x="830.625" y="71.0" />
+      <point x="588.5250000000001" y="71.0" />
+      <point x="35.75" y="25.5" />
+    </edge>
+    <edge source="org.crush.design.creator.abstractfactory.NorthFactory" target="org.crush.design.creator.abstractfactory.MultiProductFactory">
+      <point x="-60.0" y="-36.5" />
+      <point x="606.0250000000001" y="209.0" />
+      <point x="498.125" y="209.0" />
+      <point x="45.0" y="36.5" />
+    </edge>
+    <edge source="org.crush.design.creator.abstractfactory.SouthFruit" target="org.crush.design.creator.abstractfactory.Fruit">
+      <point x="0.0" y="-25.5" />
+      <point x="271.625" y="91.0" />
+      <point x="517.025" y="91.0" />
+      <point x="-35.75" y="25.5" />
+    </edge>
+    <edge source="org.crush.design.creator.abstractfactory.AstractFactoryMain" target="org.crush.design.creator.abstractfactory.NorthFactory">
+      <point x="42.75" y="-25.5" />
+      <point x="504.125" y="332.0" />
+      <point x="666.0250000000001" y="332.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="org.crush.design.creator.abstractfactory.SouthFactory" target="org.crush.design.creator.abstractfactory.SouthFruit">
+      <point x="0.0" y="-36.5" />
+      <point x="247.65000000000003" y="209.0" />
+      <point x="271.625" y="209.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="org.crush.design.creator.abstractfactory.SouthVegetable" target="org.crush.design.creator.abstractfactory.Vegetable">
+      <point x="0.0" y="-25.5" />
+      <point x="88.0" y="81.0" />
+      <point x="325.15000000000003" y="81.0" />
+      <point x="-44.0" y="25.5" />
+    </edge>
+    <edge source="org.crush.design.creator.abstractfactory.NorthFactory" target="org.crush.design.creator.abstractfactory.NorthFruit">
+      <point x="60.0" y="-36.5" />
+      <point x="726.0250000000001" y="209.0" />
+      <point x="830.625" y="209.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="org.crush.design.creator.abstractfactory.SouthFactory" target="org.crush.design.creator.abstractfactory.SouthVegetable">
+      <point x="-60.0" y="-36.5" />
+      <point x="187.65000000000003" y="209.0" />
+      <point x="88.0" y="209.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="org.crush.design.creator.abstractfactory.SouthFactory" target="org.crush.design.creator.abstractfactory.MultiProductFactory">
+      <point x="60.0" y="-36.5" />
+      <point x="307.65000000000003" y="209.0" />
+      <point x="408.125" y="209.0" />
+      <point x="-45.0" y="36.5" />
+    </edge>
+    <edge source="org.crush.design.creator.abstractfactory.AstractFactoryMain" target="org.crush.design.creator.abstractfactory.SouthFactory">
+      <point x="-42.75" y="-25.5" />
+      <point x="418.625" y="332.0" />
+      <point x="247.65000000000003" y="332.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.866738894907909" x="451.5" y="204.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
