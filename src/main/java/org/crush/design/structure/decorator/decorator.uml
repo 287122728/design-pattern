@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.crush.design.structure.decorator</OriginalElement>
+  <nodes>
+    <node x="64.04761904761905" y="79.0">org.crush.design.structure.decorator.Decorator</node>
+    <node x="117.0" y="158.0">org.crush.design.structure.decorator.DancerMan</node>
+    <node x="104.64285714285714" y="237.0">org.crush.design.structure.decorator.DecoratorMain</node>
+    <node x="206.0" y="79.0">org.crush.design.structure.decorator.Man</node>
+    <node x="0.0" y="158.0">org.crush.design.structure.decorator.SingerMan</node>
+    <node x="98.73809523809523" y="0.0">org.crush.design.structure.decorator.Person</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.crush.design.structure.decorator.DecoratorMain" target="org.crush.design.structure.decorator.DancerMan">
+      <point x="-7.105427357601002E-15" y="-14.5" />
+      <point x="166.64285714285714" y="212.0" />
+      <point x="168.0" y="212.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.crush.design.structure.decorator.DecoratorMain" target="org.crush.design.structure.decorator.Man">
+      <point x="41.33333333333334" y="-14.5" />
+      <point x="207.97619047619048" y="212.0" />
+      <point x="235.0" y="212.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.crush.design.structure.decorator.Man" target="org.crush.design.structure.decorator.Person">
+      <point x="0.0" y="-14.5" />
+      <point x="235.0" y="54.0" />
+      <point x="160.40476190476193" y="54.0" />
+      <point x="24.666666666666686" y="14.5" />
+    </edge>
+    <edge source="org.crush.design.structure.decorator.DancerMan" target="org.crush.design.structure.decorator.Decorator">
+      <point x="0.0" y="-14.5" />
+      <point x="168.0" y="133.0" />
+      <point x="134.54761904761904" y="133.0" />
+      <point x="23.499999999999986" y="14.5" />
+    </edge>
+    <edge source="org.crush.design.structure.decorator.Decorator" target="org.crush.design.structure.decorator.Person">
+      <point x="-23.500000000000014" y="-14.5" />
+      <point x="87.54761904761904" y="54.0" />
+      <point x="111.07142857142857" y="54.0" />
+      <point x="-24.666666666666657" y="14.5" />
+    </edge>
+    <edge source="org.crush.design.structure.decorator.DecoratorMain" target="org.crush.design.structure.decorator.SingerMan">
+      <point x="-41.33333333333334" y="-14.5" />
+      <point x="125.3095238095238" y="212.0" />
+      <point x="48.5" y="212.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.crush.design.structure.decorator.SingerMan" target="org.crush.design.structure.decorator.Decorator">
+      <point x="0.0" y="-14.5" />
+      <point x="48.5" y="133.0" />
+      <point x="87.54761904761905" y="133.0" />
+      <point x="-23.5" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="132.0" y="133.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
