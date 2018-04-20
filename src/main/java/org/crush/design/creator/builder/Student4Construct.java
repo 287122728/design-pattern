@@ -2,7 +2,7 @@ package org.crush.design.creator.builder;
 
 /**
  * <p>
- * Title: TODO
+ * Title: 重叠构造器（telescoping constructor）
  * </p>
  * <p>
  * Description: TODO

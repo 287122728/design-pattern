@@ -2,7 +2,7 @@ package org.crush.design.creator.builder;
 
 /**
  * <p>
- * Title: TODO
+ * Title: JavaBeans模式
  * </p>
  * <p>
  * Description: TODO
