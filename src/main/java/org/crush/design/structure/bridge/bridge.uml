@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.crush.design.structure.bridge</OriginalElement>
+  <nodes>
+    <node x="0.0" y="101.0">org.crush.design.structure.bridge.SendSMS</node>
+    <node x="565.75" y="101.0">org.crush.design.structure.bridge.SendMail</node>
+    <node x="407.375" y="202.0">org.crush.design.structure.bridge.UrgencySendMsg</node>
+    <node x="282.875" y="0.0">org.crush.design.structure.bridge.ISendMsg</node>
+    <node x="158.375" y="202.0">org.crush.design.structure.bridge.CommonSendMsg</node>
+    <node x="311.875" y="303.0">org.crush.design.structure.bridge.BridgeMain</node>
+    <node x="282.875" y="101.0">org.crush.design.structure.bridge.AbstractSendMsg</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.crush.design.structure.bridge.SendMail" target="org.crush.design.structure.bridge.ISendMsg">
+      <point x="0.0" y="-25.5" />
+      <point x="680.25" y="76.0" />
+      <point x="483.25" y="76.0" />
+      <point x="85.875" y="25.5" />
+    </edge>
+    <edge source="org.crush.design.structure.bridge.SendSMS" target="org.crush.design.structure.bridge.ISendMsg">
+      <point x="0.0" y="-25.5" />
+      <point x="114.5" y="76.0" />
+      <point x="311.5" y="76.0" />
+      <point x="-85.875" y="25.5" />
+    </edge>
+    <edge source="org.crush.design.structure.bridge.CommonSendMsg" target="org.crush.design.structure.bridge.AbstractSendMsg">
+      <point x="0.0" y="-25.5" />
+      <point x="272.875" y="177.0" />
+      <point x="340.125" y="177.0" />
+      <point x="-57.25" y="25.5" />
+    </edge>
+    <edge source="org.crush.design.structure.bridge.BridgeMain" target="org.crush.design.structure.bridge.UrgencySendMsg">
+      <point x="21.375" y="-25.5" />
+      <point x="418.75" y="273.0" />
+      <point x="521.875" y="273.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="org.crush.design.structure.bridge.AbstractSendMsg" target="org.crush.design.structure.bridge.ISendMsg">
+      <point x="57.25" y="-25.5" />
+      <point x="454.625" y="76.0" />
+      <point x="426.0" y="76.0" />
+      <point x="28.625" y="25.5" />
+    </edge>
+    <edge source="org.crush.design.structure.bridge.BridgeMain" target="org.crush.design.structure.bridge.SendMail">
+      <point x="64.125" y="-25.5" />
+      <point x="461.5" y="283.0" />
+      <point x="680.25" y="283.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="org.crush.design.structure.bridge.BridgeMain" target="org.crush.design.structure.bridge.SendSMS">
+      <point x="-64.125" y="-25.5" />
+      <point x="333.25" y="283.0" />
+      <point x="114.5" y="283.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="org.crush.design.structure.bridge.BridgeMain" target="org.crush.design.structure.bridge.CommonSendMsg">
+      <point x="-21.375" y="-25.5" />
+      <point x="376.0" y="273.0" />
+      <point x="272.875" y="273.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="org.crush.design.structure.bridge.UrgencySendMsg" target="org.crush.design.structure.bridge.AbstractSendMsg">
+      <point x="0.0" y="-25.5" />
+      <point x="521.875" y="177.0" />
+      <point x="454.625" y="177.0" />
+      <point x="57.25" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="398.0" y="177.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
