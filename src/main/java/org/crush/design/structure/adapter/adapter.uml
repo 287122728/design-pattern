@@ -3,37 +3,35 @@
   <ID>JAVA</ID>
   <OriginalElement>org.crush.design.structure.adapter</OriginalElement>
   <nodes>
-    <node x="186.0" y="101.0">org.crush.design.structure.adapter.PowerAdaptor</node>
-    <node x="357.125" y="0.0">org.crush.design.structure.adapter.JP110VInterface</node>
-    <node x="0.0" y="101.0">org.crush.design.structure.adapter.CN220VInterfaceImpl</node>
-    <node x="548.0" y="101.0">org.crush.design.structure.adapter.ElectricCooker</node>
-    <node x="64.25" y="0.0">org.crush.design.structure.adapter.CN220VInterface</node>
-    <node x="181.0" y="202.0">org.crush.design.structure.adapter.AdapterMain</node>
-    <node x="367.0" y="101.0">org.crush.design.structure.adapter.JP110VInterfaceImpl</node>
+    <node x="181.0" y="101.0">org.crush.design.structure.adapter.PowerAdaptor</node>
+    <node x="90.5" y="0.0">org.crush.design.structure.adapter.JP110VInterface</node>
+    <node x="0.0" y="298.0">org.crush.design.structure.adapter.CN220VInterfaceImpl</node>
+    <node x="0.0" y="394.0">org.crush.design.structure.adapter.ElectricCooker</node>
+    <node x="2.5" y="197.0">org.crush.design.structure.adapter.CN220VInterface</node>
+    <node x="211.0" y="197.0">org.crush.design.structure.adapter.AdapterMain</node>
+    <node x="0.0" y="101.0">org.crush.design.structure.adapter.JP110VInterfaceImpl</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="org.crush.design.structure.adapter.PowerAdaptor" target="org.crush.design.structure.adapter.JP110VInterfaceImpl">
+    <edge source="org.crush.design.structure.adapter.CN220VInterfaceImpl" target="org.crush.design.structure.adapter.CN220VInterface">
       <point x="0.0" y="-25.5" />
       <point x="0.0" y="25.5" />
     </edge>
-    <edge source="org.crush.design.structure.adapter.CN220VInterfaceImpl" target="org.crush.design.structure.adapter.CN220VInterface">
+    <edge source="org.crush.design.structure.adapter.PowerAdaptor" target="org.crush.design.structure.adapter.JP110VInterface">
       <point x="0.0" y="-25.5" />
-      <point x="83.0" y="76.0" />
-      <point x="104.5" y="76.0" />
-      <point x="-40.25" y="25.5" />
+      <point x="261.5" y="76.0" />
+      <point x="211.25" y="76.0" />
+      <point x="40.25" y="25.5" />
     </edge>
     <edge source="org.crush.design.structure.adapter.JP110VInterfaceImpl" target="org.crush.design.structure.adapter.JP110VInterface">
       <point x="0.0" y="-25.5" />
-      <point x="447.5" y="76.0" />
-      <point x="437.625" y="76.0" />
-      <point x="0.0" y="25.5" />
+      <point x="80.5" y="76.0" />
+      <point x="130.75" y="76.0" />
+      <point x="-40.25" y="25.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="336.0" y="127.0" />
-  <SelectedNodes>
-    <node>org.crush.design.structure.adapter.JP110VInterfaceImpl</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic Group" zoom="0.8344086021505376" x="191.0" y="222.50000000000003" />
+  <SelectedNodes />
   <Categories>
     <Category>Methods</Category>
   </Categories>
